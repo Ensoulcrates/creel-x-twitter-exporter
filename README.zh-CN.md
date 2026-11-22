@@ -29,7 +29,7 @@ Creel 是一个 Chrome 扩展，在你自己的浏览器里把推特（X）的�
 
 - **Chrome：**[Chrome 应用商店里的 Creel](https://chromewebstore.google.com/detail/beildllmkhjnebibpaenchhkoalacgkk?utm_source=github&utm_medium=readme&utm_campaign=creel-repo-zh)，需要 Chrome 120 或更新版本。
 - **Microsoft Edge：**2026-11-19 已提交到 Edge 加载项商店，2026-11-21 仍在审核中，暂时还没有 Edge 加载项商店的链接。
-- **网站：**[ensoullab.com/extensions/creel](https://ensoullab.com/extensions/creel)
+- **网站：**[ensoullab.com/extensions/creel](https://ensoullab.com/zh/extensions/creel)
 
 用法：在同一个浏览器里登录 X，打开某个主页、你的书签、一个列表、一次搜索或一条推文，再点工具栏上的 Creel 按钮。Creel 会列出适合这个页面的导出，其余的在“All extractors”里。Chrome 开着时它在后台收集；扩展自带的“Download Manager”页面显示进度，文件也从那里保存。
 
@@ -39,27 +39,27 @@ Creel 是一个 Chrome 扩展，在你自己的浏览器里把推特（X）的�
 
 ### 怎么导出推特（X）书签？
 
-在 x.com/i/bookmarks 打开你的书签，点 Creel。选全部书签；如果你的账号有文件夹，也可以只选一个文件夹。文件里一行是一条收藏的推文：正文、作者、时间、各项计数、图片和视频链接，以及这条推文所在的文件夹。可以存成 CSV、Excel 或 JSON。免费版每次导出 1,000 条，每个文件夹算一次单独的导出。Creel 只能读你自己的书签。书签没有每天或每周的自动更新；在一次完成的导出上点“Check for new bookmarks”会重新导出一次，任何套餐都能用，Max 还会算出新增了多少、删掉了多少。指南：[Export X (Twitter) bookmarks to CSV](https://ensoullab.com/extensions/creel/export-x-bookmarks)。
+在 x.com/i/bookmarks 打开你的书签，点 Creel。选全部书签；如果你的账号有文件夹，也可以只选一个文件夹。文件里一行是一条收藏的推文：正文、作者、时间、各项计数、图片和视频链接，以及这条推文所在的文件夹。可以存成 CSV、Excel 或 JSON。免费版每次导出 1,000 条，每个文件夹算一次单独的导出。Creel 只能读你自己的书签。书签没有每天或每周的自动更新；在一次完成的导出上点“Check for new bookmarks”会重新导出一次，任何套餐都能用，Max 还会算出新增了多少、删掉了多少。指南：[Export X (Twitter) bookmarks to CSV](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks)。
 
 ### 怎么导出推特（X）的喜欢？
 
-在任意 X 页面点 Creel，打开“All extractors”，在“Your library”下选“Likes”。导出的永远是你浏览器里登录的那个账号的喜欢。文件里一行是一条你喜欢过的推文，列和书签相同，只是没有文件夹列；可以存成 CSV、Excel、JSON，或不用 X 也能看的离线查看器。喜欢没有“Update”和“Auto update”；想要更新的喜欢，在 Download Manager 里这个导出的菜单中选“Duplicate as new export”。指南：[Export your X (Twitter) likes](https://ensoullab.com/extensions/creel/export-x-likes)。
+在任意 X 页面点 Creel，打开“All extractors”，在“Your library”下选“Likes”。导出的永远是你浏览器里登录的那个账号的喜欢。文件里一行是一条你喜欢过的推文，列和书签相同，只是没有文件夹列；可以存成 CSV、Excel、JSON，或不用 X 也能看的离线查看器。喜欢没有“Update”和“Auto update”；想要更新的喜欢，在 Download Manager 里这个导出的菜单中选“Duplicate as new export”。指南：[Export your X (Twitter) likes](https://ensoullab.com/zh/extensions/creel/export-x-likes)。
 
 ### 怎么导出一个推特（X）账号的粉丝列表？
 
-打开这个主页（你自己的，或任何你看得到的账号），点 Creel，打开“All extractors”，在“This profile”下选“Followers”。文件里一行是一个账号：用户名、名称、简介、所在地、网站、粉丝数和关注数、认证标记，以及它是否关注了你。受保护账号的列表，只有你自己在 X 上打得开时才读得到。X 有时提前停止返回列表，所以文件的行数可能少于主页上的数字。想知道有什么变化：过一段时间在这个导出的菜单里选“Duplicate as new export”，再在新的那次上选“Compare with an earlier run”，任何套餐都能用；文件会列出只在其中一次出现的账号。只有完成的导出能对比，所以停在免费 1,000 条的名单要先买 Pro。Max 还可以每天或每周自动更新这个列表。指南：[Export X (Twitter) followers to CSV](https://ensoullab.com/extensions/creel/export-x-followers)。
+打开这个主页（你自己的，或任何你看得到的账号），点 Creel，打开“All extractors”，在“This profile”下选“Followers”。文件里一行是一个账号：用户名、名称、简介、所在地、网站、粉丝数和关注数、认证标记，以及它是否关注了你。受保护账号的列表，只有你自己在 X 上打得开时才读得到。X 有时提前停止返回列表，所以文件的行数可能少于主页上的数字。想知道有什么变化：过一段时间在这个导出的菜单里选“Duplicate as new export”，再在新的那次上选“Compare with an earlier run”，任何套餐都能用；文件会列出只在其中一次出现的账号。只有完成的导出能对比，所以停在免费 1,000 条的名单要先买 Pro。Max 还可以每天或每周自动更新这个列表。指南：[Export X (Twitter) followers to CSV](https://ensoullab.com/zh/extensions/creel/export-x-followers)。
 
 ### 怎么导出一个推特（X）账号关注了谁？
 
-打开这个主页，点 Creel，打开“All extractors”，在“This profile”下选“Following”。列和粉丝导出相同。对比同一个账号的两次完成的导出（“Compare with an earlier run”），会列出只在其中一次出现的账号，通常就是这段时间里它新关注和取关的人。指南：[Export an X (Twitter) following list](https://ensoullab.com/extensions/creel/export-x-following)。
+打开这个主页，点 Creel，打开“All extractors”，在“This profile”下选“Following”。列和粉丝导出相同。对比同一个账号的两次完成的导出（“Compare with an earlier run”），会列出只在其中一次出现的账号，通常就是这段时间里它新关注和取关的人。指南：[Export an X (Twitter) following list](https://ensoullab.com/zh/extensions/creel/export-x-following)。
 
 ### 怎么导出一个推特（X）账号的全部推文？
 
-打开这个主页，点 Creel，选“Export posts”，它包括回复。文件里一行是一条推文：正文、时间、类型（推文、回复、转推或引用）、各项计数和媒体链接。X 的主页时间线大约只到最新的 3,200 条；Pro 和 Max 可以用深度提取继续往前。只要带图片或视频的推文，在“All extractors”的“This profile”下选“Media posts”；用 Pro 或 Max，这种导出还能把图片和视频文件本身存下来。指南：[Export posts and replies from an X account](https://ensoullab.com/extensions/creel/export-x-posts)。
+打开这个主页，点 Creel，选“Export posts”，它包括回复。文件里一行是一条推文：正文、时间、类型（推文、回复、转推或引用）、各项计数和媒体链接。X 的主页时间线大约只到最新的 3,200 条；Pro 和 Max 可以用深度提取继续往前。只要带图片或视频的推文，在“All extractors”的“This profile”下选“Media posts”；用 Pro 或 Max，这种导出还能把图片和视频文件本身存下来。指南：[Export posts and replies from an X account](https://ensoullab.com/zh/extensions/creel/export-x-posts)。
 
 ### 怎么导出推特（X）列表的成员？
 
-打开这个列表，点 Creel。在列表的“成员”标签页上，“List members”就在第一屏；在别的标签页上，它在“All extractors”的“This list”下。文件里一行是一个账号，列和粉丝导出相同。同一个列表里的推文也可以导出。列表成员不能对比，也没有“Update”和“Auto update”；想要新的一份，选“Duplicate as new export”。指南：[Export X (Twitter) list members](https://ensoullab.com/extensions/creel/export-x-list-members)。
+打开这个列表，点 Creel。在列表的“成员”标签页上，“List members”就在第一屏；在别的标签页上，它在“All extractors”的“This list”下。文件里一行是一个账号，列和粉丝导出相同。同一个列表里的推文也可以导出。列表成员不能对比，也没有“Update”和“Auto update”；想要新的一份，选“Duplicate as new export”。指南：[Export X (Twitter) list members](https://ensoullab.com/zh/extensions/creel/export-x-list-members)。
 
 ## 能导出什么
 
@@ -318,7 +318,7 @@ id,profile_url,username,display_name,description,location,website,created_at (UT
 | 已保存的主页或搜索只取新增内容来更新 | 没有 | 没有 | 有 |
 | Chrome 开着时每天或每周自动更新：主页、搜索、粉丝和关注名单、串推 | 没有 | 没有 | 有 |
 
-Pro 和 Max 都是一次性购买，不是订阅。在 [ensoullab.com](https://ensoullab.com/extensions/creel) 购买，授权绑定在 Ensoul Lab 账号上。如果 Creel 在你的账号上用不了，购买后 7 天内可以申请退款。
+Pro 和 Max 都是一次性购买，不是订阅。在 [ensoullab.com](https://ensoullab.com/zh/extensions/creel) 购买，授权绑定在 Ensoul Lab 账号上。如果 Creel 在你的账号上用不了，购买后 7 天内可以申请退款。
 
 免费额度怎么算：按每次导出算，不按天，也不按账号。免费导出从 X 列表的最上面开始，到 1,000 条（推文、账号、文章或字词）时停下，已保存的部分可以用任何免费格式下载。每个书签文件夹是一次单独的导出，各有 1,000 条。复制一份免费导出（“Duplicate as new export”）会从最上面重新开始，不会接着取后面的 1,000 条。想继续，买 Pro 后在停下的那个导出上点“Resume”：已保存的部分保留，从停下的地方接着收集。
 
@@ -406,27 +406,27 @@ Creel 只能保存你登录的账号当时在 X 上打得开的内容，所以�
 
 书签导出之后：
 
-- [CSV 在 Excel 里为什么是乱码？](https://ensoullab.com/extensions/creel/export-x-bookmarks#excel-garbled-text)
-- [推文 ID 在 Excel 里为什么变成 1.23E+18 或末尾全是 0？](https://ensoullab.com/extensions/creel/export-x-bookmarks#excel-long-ids)
-- [CSV 里有些单元格为什么以撇号开头？](https://ensoullab.com/extensions/creel/export-x-bookmarks#leading-apostrophe)
-- [导出的书签为什么比我收藏的少？](https://ensoullab.com/extensions/creel/export-x-bookmarks#fewer-bookmarks)
-- [导出为什么暂停了，会自己继续吗？](https://ensoullab.com/extensions/creel/export-x-bookmarks#export-paused)
-- [导出的文件存到哪里了？](https://ensoullab.com/extensions/creel/export-x-bookmarks#where-is-the-file)
-- [书签文件夹那几列为什么是空的？](https://ensoullab.com/extensions/creel/export-x-bookmarks#folder-columns-empty)
-- [我的书签会被上传到哪里吗？](https://ensoullab.com/extensions/creel/export-x-bookmarks#data-privacy)
-- [1,000 条的免费额度对书签怎么算？](https://ensoullab.com/extensions/creel/export-x-bookmarks#free-limit)
+- [CSV 在 Excel 里为什么是乱码？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#excel-garbled-text)
+- [推文 ID 在 Excel 里为什么变成 1.23E+18 或末尾全是 0？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#excel-long-ids)
+- [CSV 里有些单元格为什么以撇号开头？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#leading-apostrophe)
+- [导出的书签为什么比我收藏的少？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#fewer-bookmarks)
+- [导出为什么暂停了，会自己继续吗？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#export-paused)
+- [导出的文件存到哪里了？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#where-is-the-file)
+- [书签文件夹那几列为什么是空的？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#folder-columns-empty)
+- [我的书签会被上传到哪里吗？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#data-privacy)
+- [1,000 条的免费额度对书签怎么算？](https://ensoullab.com/zh/extensions/creel/export-x-bookmarks#free-limit)
 
 粉丝或关注导出之后：
 
-- [CSV 在 Excel 里为什么是乱码？](https://ensoullab.com/extensions/creel/export-x-followers#excel-garbled-text)
-- [账号 ID 在 Excel 里为什么变成 1.23E+18 或末尾全是 0？](https://ensoullab.com/extensions/creel/export-x-followers#excel-long-ids)
-- [CSV 里有些单元格为什么以撇号开头？](https://ensoullab.com/extensions/creel/export-x-followers#leading-apostrophe)
-- [文件的行数为什么比主页上的粉丝数少？](https://ensoullab.com/extensions/creel/export-x-followers#fewer-followers)
-- [导出为什么暂停了，会自己继续吗？](https://ensoullab.com/extensions/creel/export-x-followers#export-paused)
-- [导出的文件存到哪里了？](https://ensoullab.com/extensions/creel/export-x-followers#where-is-the-file)
-- [能导出受保护账号的粉丝吗？](https://ensoullab.com/extensions/creel/export-x-followers#protected-accounts)
-- [粉丝列表会被上传到哪里吗？](https://ensoullab.com/extensions/creel/export-x-followers#data-privacy)
-- [1,000 条的免费额度对粉丝列表怎么算？](https://ensoullab.com/extensions/creel/export-x-followers#free-limit)
+- [CSV 在 Excel 里为什么是乱码？](https://ensoullab.com/zh/extensions/creel/export-x-followers#excel-garbled-text)
+- [账号 ID 在 Excel 里为什么变成 1.23E+18 或末尾全是 0？](https://ensoullab.com/zh/extensions/creel/export-x-followers#excel-long-ids)
+- [CSV 里有些单元格为什么以撇号开头？](https://ensoullab.com/zh/extensions/creel/export-x-followers#leading-apostrophe)
+- [文件的行数为什么比主页上的粉丝数少？](https://ensoullab.com/zh/extensions/creel/export-x-followers#fewer-followers)
+- [导出为什么暂停了，会自己继续吗？](https://ensoullab.com/zh/extensions/creel/export-x-followers#export-paused)
+- [导出的文件存到哪里了？](https://ensoullab.com/zh/extensions/creel/export-x-followers#where-is-the-file)
+- [能导出受保护账号的粉丝吗？](https://ensoullab.com/zh/extensions/creel/export-x-followers#protected-accounts)
+- [粉丝列表会被上传到哪里吗？](https://ensoullab.com/zh/extensions/creel/export-x-followers#data-privacy)
+- [1,000 条的免费额度对粉丝列表怎么算？](https://ensoullab.com/zh/extensions/creel/export-x-followers#free-limit)
 
 ## 报告问题或提问
 
