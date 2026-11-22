@@ -1,0 +1,129 @@
+name: Bug report
+description: An export failed, stopped early, or the file is not what you expected.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A few details let us reproduce the problem.
+
+        **This page is public.** Do not paste cookies, tokens, passwords, licence or order details, and do not attach an exported file that holds other people's data. If a screenshot shows something private, crop or blur it first. For anything about a purchase or your account, email support@ensoullab.com instead.
+  - type: dropdown
+    id: export-type
+    attributes:
+      label: Export type
+      description: What were you exporting?
+      options:
+        - Bookmarks (all)
+        - Bookmarks (one folder)
+        - Likes
+        - Posts, or posts and replies, of a profile
+        - Media posts of a profile
+        - Followers
+        - Following
+        - Search results
+        - List members
+        - Posts in a list
+        - A thread
+        - Replies to a post or quotes of a post
+        - Accounts that liked or reposted a post
+        - Articles
+        - Community members
+        - Blocked accounts, muted accounts or muted words
+        - Something else (say which below)
+    validations:
+      required: true
+  - type: dropdown
+    id: file-format
+    attributes:
+      label: File format
+      description: Pick the format you downloaded, if the problem is in the file.
+      options:
+        - No file yet, the export itself is the problem
+        - CSV
+        - Excel
+        - JSON
+        - AI JSONL
+        - Offline viewer (HTML)
+        - Obsidian notes
+        - Readwise highlights
+        - Media folder or Media ZIP
+        - Another format
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead.
+      placeholder: I exported all my bookmarks. I expected about 2,400 rows and the file has 1,900.
+    validations:
+      required: true
+  - type: textarea
+    id: task-card
+    attributes:
+      label: What the export's card said
+      description: Open the Download Manager and copy the title and message on the export's card, for example "Rate limited", "Free sample saved" or an error. A screenshot of the card works too.
+      placeholder: "Card title: ... Message: ..."
+    validations:
+      required: true
+  - type: input
+    id: records
+    attributes:
+      label: How many records it collected
+      description: The number on the card, and roughly how many you expected.
+      placeholder: 1,900 collected, about 2,400 expected
+  - type: input
+    id: creel-version
+    attributes:
+      label: Creel version
+      description: Open chrome://extensions and find Creel. The version is next to the name.
+      placeholder: 0.2.5
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      description: Open chrome://version (or edge://version) and copy the first line.
+      placeholder: Chrome 142.0.7444.60
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - ChromeOS
+    validations:
+      required: true
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Plan
+      options:
+        - Free
+        - Pro
+        - Max
+    validations:
+      required: true
+  - type: dropdown
+    id: repeat
+    attributes:
+      label: Does it happen again when you retry?
+      options:
+        - Yes, every time
+        - Sometimes
+        - No, only once
+        - I have not tried again
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before you submit
+      options:
+        - label: Nothing in this report is a cookie, token, password, licence or order detail, or other people's private data.
+          required: true

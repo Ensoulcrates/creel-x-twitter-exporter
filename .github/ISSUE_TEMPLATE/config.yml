@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Purchases, refunds and accounts
+    url: https://ensoullab.com/extensions/creel
+    about: Please email support@ensoullab.com. Do not put order or account details in a public issue.
+  - name: Chat with us on Discord
+    url: https://ensoullab.com/discord
+    about: Quick questions and release notes, in the Ensoul Lab Discord.
+  - name: Answers after an export
+    url: https://ensoullab.com/extensions/creel/export-x-bookmarks#excel-long-ids
+    about: Garbled text or rounded IDs in Excel, a paused export, a missing file, the free limit.

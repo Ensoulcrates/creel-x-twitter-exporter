@@ -1,0 +1,55 @@
+name: Question
+description: How something works, what an export contains, or whether Creel can do something.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The README lists every column of every export, the limits, and what Creel does not do. The Creel website answers the common questions after an export. If your question is not covered there, ask here.
+
+        **This page is public.** Do not paste cookies, tokens, passwords, licence or order details, or other people's private data. For anything about a purchase or your account, email support@ensoullab.com instead.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: Does the followers export include accounts that are protected?
+    validations:
+      required: true
+  - type: dropdown
+    id: export-type
+    attributes:
+      label: Which export is it about?
+      options:
+        - Not about one export
+        - Bookmarks
+        - Likes
+        - Posts of a profile
+        - Followers or following
+        - Search results
+        - Lists
+        - Threads, replies or quotes
+        - Articles
+        - Media
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: task-card
+    attributes:
+      label: What the export's card said, if you are looking at one
+      description: The title and message on the card in the Download Manager.
+      placeholder: Free sample saved
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version, if it matters
+      description: Open chrome://version and copy the first line.
+      placeholder: Chrome 142.0.7444.60
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before you submit
+      options:
+        - label: Nothing in this question is a cookie, token, password, licence or order detail, or other people's private data.
+          required: true
